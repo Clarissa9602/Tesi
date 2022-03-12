@@ -550,7 +550,7 @@ GameObject:
   - component: {fileID: 79208627}
   - component: {fileID: 79208626}
   m_Layer: 5
-  m_Name: Gabbia
+  m_Name: Torace
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1537,7 +1537,7 @@ GameObject:
   - component: {fileID: 359098403}
   - component: {fileID: 359098402}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: Torace
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1940,6 +1940,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 446725853}
+  - component: {fileID: 446725854}
   m_Layer: 0
   m_Name: UI SkeletronGame
   m_TagString: Untagged
@@ -1963,6 +1964,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &446725854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446725852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44be4a62f9694d0d9548f4718d1c46e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bones:
+  - {fileID: 475371362}
+  - {fileID: 359098400}
+  - {fileID: 491881274}
+  - {fileID: 1392746249}
+  - {fileID: 1524254237}
+  scoreText: {fileID: 847177527}
 --- !u!1 &475371362
 GameObject:
   m_ObjectHideFlags: 0
@@ -1976,7 +1996,7 @@ GameObject:
   - component: {fileID: 475371365}
   - component: {fileID: 475371364}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Cranio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2076,7 +2096,7 @@ GameObject:
   - component: {fileID: 491881277}
   - component: {fileID: 491881276}
   m_Layer: 0
-  m_Name: Cube (2)
+  m_Name: Braccia
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3274,6 +3294,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f44be4a62f9694d0d9548f4718d1c46e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bones: []
   scoreText: {fileID: 847177527}
 --- !u!114 &847177527
 MonoBehaviour:
@@ -4861,7 +4882,7 @@ GameObject:
   - component: {fileID: 1392746252}
   - component: {fileID: 1392746251}
   m_Layer: 0
-  m_Name: Cube (3)
+  m_Name: Bacino
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4883,7 +4904,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.350006, y: 0}
+  m_AnchoredPosition: {x: 4.34, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!65 &1392746251
@@ -5279,7 +5300,7 @@ GameObject:
   - component: {fileID: 1524254240}
   - component: {fileID: 1524254239}
   m_Layer: 0
-  m_Name: Cube (4)
+  m_Name: Gambe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
