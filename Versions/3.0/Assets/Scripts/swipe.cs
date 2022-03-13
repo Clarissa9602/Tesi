@@ -89,20 +89,13 @@ public class swipe : MonoBehaviour
 
             }
         }
-
-        for (int i = 0; i < btn.transform.parent.transform.childCount; i++)
-        {
-            btn.transform.name = ".";
-        }
-
     }
     public void WhichBtnClicked(Button btn)
     {
-        btn.transform.name = "clicked";
-        for (int i = 0; i < btn.transform.parent.transform.childCount; i++)
-        {
-            if (btn.transform.parent.transform.GetChild(i).transform.name == "clicked")
-            {
+        btn.transform.tag = "Clicked";
+        Debug.Log("Bottone nome: " + btn.transform.tag);
+        for (int i = 0; i < btn.transform.parent.transform.childCount; i++){
+            if (btn.transform.parent.transform.GetChild(i).transform.tag == "Clicked"){
                 btnNumber = i;
                 takeTheBtn = btn;
                 time = 0;
@@ -110,8 +103,5 @@ public class swipe : MonoBehaviour
                 runIt = true;
             }
         }
-
-       
     }
-
 }

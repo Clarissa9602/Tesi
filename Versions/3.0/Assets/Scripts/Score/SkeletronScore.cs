@@ -4,32 +4,27 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class SkeletronScore : MonoBehaviour{
+    public static SkeletronScore Instance;
     public List<GameObject> bones;
 
     public Text scoreText;
     int score;
 
+    void Awake(){
+        Instance = this;
+    }
     void Start(){
         score = 0;
+        scoreText.text = score.ToString() + "%";
     }
 
-    void Update(){
-        foreach(GameObject items in bones){
-            checkPosition(items);
-            //Debug.Log(items.name);
-        }
-        // Verifica posizione
-        Debug.Log(score);
-        scoreText.text = score + "%";
-        if(score == 100)
-            LoadingManager.Instance.LoadLevel("Main Menu");
-    }
-    void checkPosition(GameObject i){
+    public void checkPosition(GameObject i){
         // Se l'item è stato trascinato nell'area corretta
         // Fisso l'item nel posto giusto 
         // E incremento lo score
-        if(i.name == "Cranio")
+        //if(i.name == "Cranio")
             score += 20;
+        scoreText.text = score.ToString() + "%";
         /*if(i.name == "Torace")
         if(i.name == "Braccia")
         if(i.name == "Bacino")
