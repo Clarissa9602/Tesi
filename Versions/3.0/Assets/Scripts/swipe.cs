@@ -93,7 +93,6 @@ public class swipe : MonoBehaviour
     public void WhichBtnClicked(Button btn)
     {
         btn.transform.tag = "Clicked";
-        Debug.Log("Bottone nome: " + btn.transform.tag);
         for (int i = 0; i < btn.transform.parent.transform.childCount; i++){
             if (btn.transform.parent.transform.GetChild(i).transform.tag == "Clicked"){
                 btnNumber = i;
