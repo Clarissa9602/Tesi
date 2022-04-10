@@ -1,0 +1,21 @@
+sceneSetups:
+- path: Assets/Scenes/MainMenu.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Activity/Activity 1.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Activity 2/Activity 2.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Activity 2/Activity 2A.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Activity 2/Activity 2D.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0

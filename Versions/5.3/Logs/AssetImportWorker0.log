@@ -1,0 +1,190 @@
+Unity Editor version:    2020.3.27f1 (e759542391ea)
+Branch:                  2020.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.6.5 (Build 20G527)
+Darwin version:          20.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/ccarbonaro/Documents/Tesi Backup/Versions/5.3
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49448
+Successfully changed project path to: /Users/ccarbonaro/Documents/Tesi Backup/Versions/5.3
+/Users/ccarbonaro/Documents/Tesi Backup/Versions/5.3
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 40.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.27f1 (e759542391ea)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/ccarbonaro/Documents/Tesi Backup/Versions/5.3/Assets
+GfxDevice: creating device client; threaded=0
+2022-04-10 10:32:09.517 Unity[8270:33053] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
+2022-04-10 10:32:09.517 Unity[8270:33053] Metal devices available: 1
+2022-04-10 10:32:09.517 Unity[8270:33053] 0: Intel(R) Iris(TM) Plus Graphics (low power)
+2022-04-10 10:32:09.518 Unity[8270:33053] Using device Intel(R) Iris(TM) Plus Graphics (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56270
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000582 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 37.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.701 seconds
+Domain Reload Profiling:
+	ReloadAssembly (701ms)
+		BeginReloadAssembly (73ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (524ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (203ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (188ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (37ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (105ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001960 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.189 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1189ms)
+		BeginReloadAssembly (170ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (951ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (370ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (318ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (231ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.006955 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.008445 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Initializing Unity extensions:
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1645 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 183.8 MB.
+System memory in use after: 183.0 MB.
+
+Unloading 127 unused Assets to reduce memory usage. Loaded Objects now: 2104.
+Total: 3.265616 ms (FindLiveObjects: 0.240777 ms CreateObjectMapping: 0.095454 ms MarkObjects: 2.461885 ms  DeleteObjects: 0.434615 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Prefab/Enemies/Bacterium.prefab
+  artifactKey: Guid(589c982e804314e26b996b8b0fd33e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemies/Bacterium.prefab using Guid(589c982e804314e26b996b8b0fd33e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c3c4540534e41570973b0ee6e8c9509') in 1.334355 seconds 
+  Import took 1.339769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.848643 seconds.
+  path: Assets/Prefab/Enemies/Virus.prefab
+  artifactKey: Guid(673e88ae158a34675a566c4efee56a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemies/Virus.prefab using Guid(673e88ae158a34675a566c4efee56a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5942b74ef2beb4b5cb53350133bc0bc8') in 0.042435 seconds 
+  Import took 0.049123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.147261 seconds.
+  path: Assets/Prefab/Enemies/Virus.prefab
+  artifactKey: Guid(673e88ae158a34675a566c4efee56a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemies/Virus.prefab using Guid(673e88ae158a34675a566c4efee56a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64962b612fc0d10bf4b3e75edd49e8a5') in 0.040388 seconds 
+  Import took 0.046580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 806.480705 seconds.
+  path: Assets/Scripts/AntibodiesGame/Player/PlayerController.cs
+  artifactKey: Guid(89bac23dc642c4cc684c76d7730d889f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AntibodiesGame/Player/PlayerController.cs using Guid(89bac23dc642c4cc684c76d7730d889f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c660f310fde35836782493dc598109e4') in 0.392129 seconds 
+  Import took 0.398254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 92.992698 seconds.
+  path: Assets/Prefab/Player
+  artifactKey: Guid(db83eeee8236e4e12a1f329d284ec8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Player using Guid(db83eeee8236e4e12a1f329d284ec8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c13a908747118bfd73861d588312ab') in 0.001503 seconds 
+  Import took 0.004569 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
