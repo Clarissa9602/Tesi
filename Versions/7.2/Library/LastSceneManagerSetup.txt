@@ -1,0 +1,25 @@
+sceneSetups:
+- path: Assets/Scenes/MainMenu.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Activity 2/Antibodies Game.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Activity 2/Muscle Game.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
+- path: Assets/Scenes/Activity 2/Nervous Game.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Apparataseus/Apparatuses Game.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Activity 2/Activity 2.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
